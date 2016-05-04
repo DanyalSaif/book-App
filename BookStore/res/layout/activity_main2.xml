@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bback5" >
+
+    <Button
+        android:id="@+id/nonfiction"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fiction"
+        android:layout_below="@+id/fiction"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="27dp"
+        android:onClick="nonfic_btn"
+        android:text="@string/btn_nonf" />
+
+    <Button
+        android:id="@+id/fiction"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="26dp"
+        android:onClick="fiction_btn"
+        android:text="@string/btn_fic" />
+
+    <Button
+        android:id="@+id/biography"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nonfiction"
+        android:layout_below="@+id/nonfiction"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="23dp"
+        android:onClick="bio_btn"
+        android:text="@string/btn_bio" />
+
+</RelativeLayout>

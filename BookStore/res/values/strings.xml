@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Book Store</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_login">Log In</string>
+    <string name="edit_name">Name:</string>
+    <string name="edit_mail">E_mail:</string>
+    <string name="edit_pass">Password</string>
+    <string-array name="book_list">
+        <item >Fiction</item>
+        <item >Non-Fiction</item>
+        <item >Biography</item>
+        <item >Sci-fi</item>
+        <item >Short Stories</item>
+    </string-array>
+        <string name="btn_fic">Fiction</string>
+        <string name="btn_nonf">Non-fiction</string>
+        <string name="btn_bio">Biography</string>
+        <string name="btn_lib">Add to Library</string>
+        <string name="btn_cart">Add to Cart</string>
+        <string name="btn_read">Read</string>
+        <string name="btn_free">Free</string>
+        <string name="edit_story">"Once upon a time there was a girl who lived far away in a deserted village. Her family was very poor and thus the girl had to work wit her father to put bread on the table... she never said anything but inside she was very sad with her life.. She wanted to chase her dreams and live in the town... but she knew she would never get to fulfil her dreams... "</string>
+        <string name="edit_rate">Rate the Story</string>
+
+</resources>

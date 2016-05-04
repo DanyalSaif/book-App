@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="100dp"
+        
+         />
+
+    <Button
+        android:id="@+id/read_btn"
+        android:layout_width="98dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/read_btn"
+        android:onClick="read_btn"
+        android:text="@string/btn_read" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="86dp"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/read_btn"
+        android:onClick="cart_btn"
+        android:text="@string/btn_cart" />
+
+    <Button
+        android:id="@+id/free_btn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/read_btn"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/read_btn"
+        android:layout_marginRight="14dp"
+        android:text="@string/btn_free" />
+
+</RelativeLayout>
